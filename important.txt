@@ -6,6 +6,14 @@
 .odb
 .md
 data2.npz
+venv/
 voromesh2CAE/
 examples/
+polygen/
+Presentation/
 voronoiDataFiles/
+script_fileManagement/
+
+# Useful command
+# Please place the script_fileManagement folder in the target folder to be processed. Then open terminal inside the script_fileManagement folder and run the following command.
+# python .\file_ops.py delete --source_dir ../ --patterns-file .\important.txt --patterns-exclude --no-recursive --dry-run
